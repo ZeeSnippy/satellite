@@ -21,9 +21,9 @@ public class Temp extends ApplicationFrame {
         chartPanel.setPreferredSize(new Dimension(1000, 600));
         setContentPane(chartPanel);
         this.pack();
-
-
     }
+
+
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
